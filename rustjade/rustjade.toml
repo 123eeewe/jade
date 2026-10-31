@@ -1,0 +1,10 @@
+# RustJade config (аналог jade.toml)
+
+[hud]
+show_overlay = true
+overlay_pos = middle
+hide_from_debug = true
+fade_ticks = 5
+
+[components]
+rustjade:uid = false
