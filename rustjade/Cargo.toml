@@ -1,0 +1,15 @@
+[package]
+name = "rustjade"
+version = "0.1.0"
+edition = "2021"
+description = "Аналог мода Jade (WAILA-HWT) для Minecraft на Rust — ядро WAILA-пробника с консольным HUD"
+license = "MIT"
+
+[[bin]]
+name = "rustjade"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.release]
+lto = true
